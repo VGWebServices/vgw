@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:hover{
+      color: rgba(255, 255, 255, 0.329);
+}
+body {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url('cont.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+    font-size:20px;
+    color:#cccccc;
+    clear:both;
+    display:block;
+    letter-spacing:5px;
+    border:1px solid #fff;
+    padding:5px;
+    text-decoration:none;
+    width:250px;
+    margin:auto;
+    margin-top:150px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 3;
+    height: 7em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+}
+.mail{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+h2{
+    font-size: clamp(0.3rem, 2.5vw, 2.5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.tar{
+    display:inline-block;
+    border-radius:15px;
+    border-style:solid;
+    border-color: aqua;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.tar:hover{
+    display:inline-block;
+    border-radius:15px;
+    border-style:solid;
+    border-color: rgba(0, 255, 255, 0.418);
+    padding: 5px;
+    background-color: rgba(0, 255, 255, 0.418);
+}
+
+#box2,#box3,#box4,#box5{
+    border-color: aqua;
+    border-radius:25px;
+    border-style:solid;
+    width:300px;
+    background-color: aqua;
+}
+#box2:hover,#box3:hover,#box4:hover,#box5:hover{
+    border-color: rgba(0, 255, 255, 0.418);
+    border-style:solid;
+    width:300px;
+    box-shadow: 5px 5px 20px 4px rgba(0, 255, 255, 0.418);
+}
+
+h4{
+    color: #000000;
+}
+
+#titolo{
+    text-align: center;
+    justify-content: center;
+}

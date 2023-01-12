@@ -1,0 +1,155 @@
+h2 * {
+    will-change: transform;
+}
+  
+h2 {
+    font-size: clamp(1rem, 5vw, 5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.tar{
+    display:inline-block;
+    border-radius:15px;
+    border-style:solid;
+    border-color: aqua;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.tar:hover{
+    display:inline-block;
+    border-radius:15px;
+    border-style:solid;
+    border-color: rgba(0, 255, 255, 0.418);
+    padding: 5px;
+    background-color: rgba(0, 255, 255, 0.418);
+}
+
+p {
+    color:#F8FE85;
+    font-size:2em;
+    margin:40px;
+    text-transform: uppercase;
+}
+section {
+    width:100%;
+    height: 105%; /*vh gets height's viewport*/
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+  /*section:nth-child(even) {
+    background: #7A3476;
+  }
+  section:nth-child(odd) {
+    background: #FF6464;
+  }*/
+  
+section#one {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url('code.jpg');
+    background-size: 100%;
+    height:750px;
+    background-position: center;
+}
+section#two {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url('redesk.jpg');
+    background-size: 100%;
+    height:750px;
+    background-position: center;
+}
+section#three {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url('trading.jpg');
+    background-size: 100%;
+    height:750px;
+    background-position: center;
+}
+section#four {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url('desk.jpg');
+    background-size: 100%;
+    height:750px;
+    background-position: center;
+}
+
+.tit{
+    font-size: clamp(0.8rem, 3.7vw, 3.7rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+  
+.subtit{
+    font-size: clamp(0.3rem, 2.5vw, 3.5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+
+.simple{
+    font-size: clamp(0.25rem, 2.5vw, 2.5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-right: -0.5em;
+    color: #cccccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+  
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    background: black;
+    font-family: "Cormorant Garamond", serif;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+  
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 3;
+    height: 7em;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+}
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.329);
+}
