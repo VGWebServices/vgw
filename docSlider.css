@@ -169,8 +169,8 @@ a:hover{
   cursor: pointer;
   display: block;
   margin: 5px 0;
-  background-color: rgb(82, 82, 82);
-  opacity: .25;
+  background-color: rgb(82, 82, 82, 0.001);
+  opacity: 85.25;
   appearance: none;
   border: none;
   box-sizing: border-box;
